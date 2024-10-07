@@ -12,7 +12,7 @@ func main() {
 }
 
 func ReverseWords(str string) string {
-	result := []rune{}                // Результирующий срез рун (символов)
+	result := []rune{}                // Срез рун для вывода (символов)
 	newStr := strings.Split(str, " ") // Разбиваем исходную строку на слова по пробелу
 	for i := 0; i < len(newStr); i++ {
 		temp := []rune(newStr[i])             // Преобразуем текущее слово в срез рун
